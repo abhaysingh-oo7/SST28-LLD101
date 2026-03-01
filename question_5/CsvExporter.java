@@ -7,8 +7,7 @@ public class CsvExporter extends Exporter {
 
         String body = req.body == null ? "" : req.body;
 
-        String csv =
-                "title,body\n" +
+        String csv = "title,body\n" +
                 escape(req.title) + "," +
                 escape(body) + "\n";
 

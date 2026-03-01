@@ -16,7 +16,6 @@ public class HostelFeeCalculator {
 
         // Room component
         components.add(new RoomPricing(req.roomType));
-
         // Add-on components
         for (AddOn a : req.addOns) {
             components.add(new AddOnPricing(a));
