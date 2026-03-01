@@ -21,7 +21,7 @@ A campus transport service books rides for students. It calculates distance, all
 ## 5. Constraints
 - Preserve receipt output format.
 - Keep `TripRequest` fields unchanged.
-- No external libs.
+- No external libs  .
 
 ## 6. Acceptance criteria
 - Booking service depends only on abstractions.
