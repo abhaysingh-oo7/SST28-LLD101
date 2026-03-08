@@ -12,7 +12,6 @@ public class RealReport implements Report {
     
     private final String content;
 
-    // public RealReport(String reportId, String title, String classification) {
     public RealReport(String reportId, String title, String classification) {
         this.reportId = reportId;
         this.title = title;
