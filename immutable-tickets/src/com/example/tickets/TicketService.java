@@ -28,7 +28,7 @@ public class TicketService {
                 .customerVisible(false)
                 .addTag("NEW")
                 .build();
-
+ 
         // if (id == null || id.trim().isEmpty()) throw new IllegalArgumentException("id
         // required");
         // if (reporterEmail == null || !reporterEmail.contains("@")) throw new
