@@ -1,0 +1,4 @@
+enum SeatType {
+    GOLD,
+    PLATINUM
+}

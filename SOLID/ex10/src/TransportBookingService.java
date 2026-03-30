@@ -2,13 +2,13 @@ public class TransportBookingService {
 
     private final DistanceService distanceService;
     private final DriverService driverService;
-    private final PaymentService paymentService;
+    private final Payment paymentService;
     private final FarePolicy farePolicy;
 
     public TransportBookingService(
             DistanceService distanceService,
             DriverService driverService,
-            PaymentService paymentService,
+            Payment paymentService,
             FarePolicy farePolicy
         ){
 

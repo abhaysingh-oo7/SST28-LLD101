@@ -1,4 +1,4 @@
-public class PaymentGateway implements PaymentService {
+public class PaymentGateway implements Payment {
     public String charge(String studentId, double amount) {
         return "TXN-9001";
     }

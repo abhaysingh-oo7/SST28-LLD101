@@ -6,7 +6,7 @@ public class Demo10 {
         
          DistanceService distanceService = new DistanceCalculator();
         DriverService driverService = new DriverAllocator();
-        PaymentService paymentService = new PaymentGateway();
+        Payment paymentService = new PaymentGateway();
         FarePolicy farePolicy = new DefaultFare();
         
         // TransportBookingService svc = new TransportBookingService();
