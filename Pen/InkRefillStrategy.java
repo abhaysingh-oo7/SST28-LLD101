@@ -6,6 +6,7 @@ public class InkRefillStrategy implements RefillStrategy {
             System.out.println("Ink already full, but refilling anyway...");
         }
         pen.refillPercent = 100;
+        pen.color = color; // newww 
         System.out.println("Fountain pen refilled with "+ color+ "ink");
     }
 }
